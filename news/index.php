@@ -1,7 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости");
-?><?$APPLICATION->IncludeComponent("bitrix:news.list", "solvintech_test_news", array(
+?>
+<?$APPLICATION->IncludeComponent("bitrix:news.list", "solvintech_test_news", array(
 	"IBLOCK_TYPE" => "solvintech_test",
 	"IBLOCK_ID" => "2",
 	"TEMPLATE_THEME" => "site",
@@ -90,4 +91,5 @@ $APPLICATION->SetTitle("Новости");
 	)
 	),
 	true
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
