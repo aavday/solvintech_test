@@ -89,7 +89,6 @@ $APPLICATION->SetTitle("Новости");
 		"rss" => "rss/",
 		"rss_section" => "#SECTION_ID#/rss/",
 	)
-	),
-	true
+	)
 );?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
