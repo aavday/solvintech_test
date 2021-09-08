@@ -67,3 +67,10 @@
 .template-path-for-ajax {
     display: none;
 }
+
+.feedback-item__email,
+.feedback-item__date {
+    font-size: 12px;
+    color: #aaa;
+    white-space: nowrap;
+}
